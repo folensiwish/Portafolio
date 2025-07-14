@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<title>{% block title %}My Application{% endblock %}</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<body>
+    <section>{% block content %}{% endblock %}</section>
+</body>
+
+<footer>
+    {% block footer %}{% endblock %}
+</footer>
