@@ -5,8 +5,19 @@ Bienvenido a mi portafolio
 {% endblock %}
 
 {% block content %}
-<h1>Mi Portafolio</h1>
-<p>Explora mis proyectos y habilidades.</p>
+<div class = "panel">
+    <div class="panel-content">
+    <div class = "left">
+        <h1>Soy Desarrollador</h1>
+        <h1>Alberto Fernandez</h1>
+        <p>Desarrollador web con experiencia en HTML, CSS y Python. Me apasiona crear aplicaciones innovadoras y funcionales.</p>
+        <a href="#contacto" class="btn">Contáctame</a>
+    </div>
+    <div class = "right">
+        <img src="{{ url_for('static', filename='bigdata.png') }}" width=600px/>
+    </div>
+    </div>
+</div>
 {% endblock %}
 
 {% block footer %}
