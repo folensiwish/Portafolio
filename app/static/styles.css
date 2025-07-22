@@ -1,3 +1,7 @@
+html {
+    font-family: "Rufina", sans-serif;
+}
+
 body{
     font-family: Arial, sans-serif;
     margin: 0;
@@ -91,4 +95,35 @@ a.btn{
 
 a.btn:hover{
     background-color: #034d6c;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+}
+
+.content {
+    width: 1200px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.naranjo{
+    color: #f84f07;
+  
+}
+
+.naranjo:hover{
+    color: #034d6c;
+}
+
+.padded{
+    padding: 20px 30px;
+}
+
+.vert-pad{
+    padding: 20px 0px;
 }
