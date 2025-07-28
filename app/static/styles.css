@@ -24,7 +24,7 @@ a:hover{
 html body header {
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #efefef;
     box-shadow: 3px 0 5px black;
     padding: 15px 30px;
     color:#19239a;
@@ -100,7 +100,7 @@ a.btn:hover{
 .center {
     display:flex;
     justify-content: center;
-    box-shadow: 3px 0 5px black;
+    
 }
 
 .content {
@@ -140,6 +140,7 @@ a.btn:hover{
 .third {
     width: 360px;
     margin: 20px;
+    
 }
 
 .contact-form input {
@@ -150,6 +151,7 @@ a.btn:hover{
     margin-bottom: 15px;
     border-radius: 5px;
     width: calc(100% - 20px);
+    
 }
 
 .contact-form textarea {
@@ -165,4 +167,15 @@ a.btn:hover{
 
 .full-width {
     width: 100%;
+}
+
+.footer{
+    padding: 80px 0 0 0;
+    background-color: #efefef;
+    color: #19239a;
+    box-shadow: 3px 0 5px black;
+}
+
+.white-bg {
+    background-color: #efefef;
 }

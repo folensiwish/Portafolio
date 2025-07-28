@@ -8,7 +8,6 @@ bp = Blueprint('portfolio', __name__, url_prefix='/')
 def index():
     return render_template('portfolio/index.html')
 
-@bp.route('/contact', methods=['POST'])
-
-def contact():
-    return "lala"
+@bp.route('/contacto', methods=['POST'])
+def contacto():
+    return render_template('portfolio/sent_email.html')
