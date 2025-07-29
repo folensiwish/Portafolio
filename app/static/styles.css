@@ -57,12 +57,14 @@ html body nav ul li {
     padding: 20px 50px;
     justify-content: center;
     display: flex;
+
 }
 
 .panel .panel-content{
     width: 1200px;
     display: flex;
     flex-direction: row;
+    margin-top: 0px;
 }
 
 .panel h1{
@@ -73,8 +75,9 @@ html body nav ul li {
     margin-top: 0px;
 }
 .panel p{
-    font-family: Rubik, sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin-bottom: 50px;
+    
 }
 .left {
     width: 600px;
@@ -100,6 +103,7 @@ a.btn:hover{
 .center {
     display:flex;
     justify-content: center;
+    
     
 }
 
