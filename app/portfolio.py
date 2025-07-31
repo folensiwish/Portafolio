@@ -2,7 +2,7 @@ from flask import (
     Blueprint, render_template, request, redirect, url_for, current_app
 )
 import sendgrid
-from sendgrid.helpers.mail import (Email, To, Mail)
+from sendgrid.helpers.mail import( Email, To, Mail)
 bp = Blueprint('portfolio', __name__, url_prefix='/')
 
 @bp.route('/', methods=['GET'])
