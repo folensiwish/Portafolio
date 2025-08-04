@@ -116,14 +116,6 @@ a.btn:hover{
     flex-direction: row;
 }
 
-.naranjo{
-    color: #f84f07;
-  
-}
-
-.naranjo:hover{
-    color: #034d6c;
-}
 
 .padded{
     padding: 20px 30px;
@@ -183,3 +175,54 @@ a.btn:hover{
 .white-bg {
     background-color: #efefef;
 }
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #fff; /* Fondo opcional si lo necesitas */
+  padding: 10px;
+}
+
+.tech-tags span {
+  background-color: #efefef;
+  color: #19239a;
+  padding: 4px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Rubik', sans-serif;
+  transition: background 0.3s ease;
+}
+
+.card-link {
+  display: block;
+  text-decoration: none;
+  color: #19239a;
+}
+
+.card-link:hover {
+    transform: scale(1.01);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 12px rgba(0, 123, 255, 0.3); /* efecto hover opcional */
+}
+
+a.card-link p {
+  font-size: 16px;
+  font-family: 'Rubik', sans-serif;
+  text-decoration: none;
+  color: #19239a;
+  font-weight: 400;
+  transition: none;
+}
+
+a.card-link h3 {
+    font-family: 'Rufina', sans-serif;
+    font-size: 25px;
+}
+
+a.card-link h3:hover {
+    color: #f84f07; 
+}
+
+
