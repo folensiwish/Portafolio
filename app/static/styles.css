@@ -1,3 +1,4 @@
+
 html {
     font-family: "Rufina", sans-serif;
 }
@@ -234,6 +235,65 @@ a.card-link h3 {
     font-size: 25px;
     color: #f84f07;
 }
+
+.responsive-image{
+    width: 600px;
+    height: auto;
+}
+
+/* Estilos para pantallas más pequeñas (teléfonos y tabletas) */
+@media (max-width: 768px) {
+    /* Aquí van los estilos que quieres aplicar solo en estas pantallas */
+    .panel .panel-content {
+        /* En pantallas pequeñas, el contenido debe ocupar todo el ancho */
+        width: 100%;
+        /* Y los elementos deben apilarse, no estar uno al lado del otro */
+        flex-direction: column;
+    }
+
+    .panel h1 {
+        /* Reduce el tamaño de la fuente para que quepa en la pantalla */
+        font-size: 36px;
+    }
+
+    .left, .right {
+        /* Los elementos que eran columnas ahora ocupan todo el ancho */
+        width: 100%;
+    }
+
+    .padded {
+        /* Reduce el padding para no perder espacio */
+        padding: 10px 15px;
+    }
+    
+    .third {
+        /* Apila las tarjetas en vez de mostrarlas en línea */
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* Oculta el menú de navegación y muestra un botón de menú si lo tienes */
+    nav {
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .responsive-image {
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+    }
+
+    a.btn {
+        justify-content: center;
+        display: flex;
+    }
+}
+
 
 
 
