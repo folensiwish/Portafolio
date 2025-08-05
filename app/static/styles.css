@@ -38,7 +38,47 @@ header .logo{
     font-weight: 700;
 }
 
-html body nav ul {
+/* Estilos para pantallas más pequeñas (móviles) */
+@media (max-width: 768px) {
+  /* Aquí van los estilos específicos para móviles */
+  .panel .panel-content {
+    flex-direction: column; /* Apila los elementos en lugar de ponerlos uno al lado del otro */
+  }
+
+  .panel h1 {
+    font-size: 30px; /* Reduce el tamaño del título */
+  }
+
+  .left,
+  .right {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Reduce el padding */
+  }
+
+  .right img {
+    width: 100%; /* Haz que la imagen se ajuste al ancho */
+    height: auto;
+  }
+
+  html body nav ul {
+    font-size: 16px; /* Reduce el tamaño de la fuente en la navegación */
+  }
+
+  html body nav ul li {
+    margin-right: 10px; /* Reduce el margen entre los elementos de la navegación */
+  }
+
+  .content {
+    width: 100%; /* Ocupa todo el ancho disponible */
+  }
+
+  .third {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 10px 0; /* Reduce el margen */
+  }
+}
+
+/*html body nav ul {
     list-style-type: none;
     font-size: 20px;
 }
@@ -47,7 +87,7 @@ html body nav ul li {
     display: inline;
     margin-right: 20px;
 }
-
+*/
 .panel {
     position: relative;
     z-index: 1;
@@ -57,7 +97,7 @@ html body nav ul li {
     display: flex;
 
 }
-
+/*
 .panel .panel-content{
     width: 1200px;
     display: flex;
@@ -71,7 +111,7 @@ html body nav ul li {
     font-weight: 700;
     margin-bottom: 0px;
     margin-top: 0px;
-}
+}*/
 .panel p{
     font-family: 'Rubik', sans-serif;
     margin-bottom: 50px;
@@ -81,7 +121,7 @@ html body nav ul li {
 .naranjo{
     color: #f84f07;
 }
-
+/*
 .left {
     width: 600px;
     align-self: center;
@@ -89,7 +129,7 @@ html body nav ul li {
 .right {
     width: 600px;
 }
-
+*/
 .btn{
     background-color: #f84f07;
     color: #fff;
@@ -119,11 +159,11 @@ a.btn:hover{
     
     
 }
-
+/*
 .content {
     width: 1200px;
 }
-
+*/
 .row {
     display: flex;
     flex-direction: row;
@@ -145,13 +185,13 @@ a.btn:hover{
     border-radius: 5px;
     padding: 20px 30px;
 }
-
+/*
 .third {
     width: 360px;
     margin: 20px;
     
 }
-
+*/
 .contact-form input {
     font-family: "Rubik", sans-serif;
     border: gray solid 1px;
