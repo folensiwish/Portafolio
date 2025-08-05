@@ -3,7 +3,7 @@ html {
 }
 
 body{
-    font-family: Arial, sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     background-color: #fff;
     color: #19239a;
@@ -11,15 +11,13 @@ body{
 
 a{
     transition: color 0.3s ease;
-    color: #034d6c;
-    font-family: 'Rubik', sans-serif;
+    color: #19239a;
+    font-family: 'Rufina', sans-serif;
     text-decoration: none;
     font-weight: 700;
 }
 
-a:hover{
-    color: #f84f07;
-}
+
 
 html body header {
     display: flex;
@@ -34,7 +32,7 @@ html body header {
 
 header .logo{
     font-size: 24px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Rufina', sans-serif;
     display: flex;
     align-items: center;
     font-weight: 700;
@@ -42,7 +40,7 @@ header .logo{
 
 html body nav ul {
     list-style-type: none;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 html body nav ul li {
@@ -79,9 +77,17 @@ html body nav ul li {
     margin-bottom: 50px;
     
 }
+
+.naranjo{
+    color: #f84f07;
+}
+
 .left {
     width: 600px;
     align-self: center;
+}
+.right {
+    width: 600px;
 }
 
 .btn{
@@ -90,6 +96,13 @@ html body nav ul li {
     border: none;
     padding: 15px 30px;
     border-radius: 5px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #034d6c;
+    cursor: pointer;
 }
 
 a.btn{
@@ -219,10 +232,12 @@ a.card-link p {
 a.card-link h3 {
     font-family: 'Rufina', sans-serif;
     font-size: 25px;
+    color: #f84f07;
 }
 
-a.card-link h3:hover {
-    color: #f84f07; 
-}
+
+
+
+
 
 

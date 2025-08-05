@@ -2,17 +2,24 @@
     <div class="content">
         <div class="row vert-pad">
             <div class="left padded">
-                <h1>Ahora o nunca! trabajemos juntos </h1>
-                <p>Si tienes un proyecto en mente o simplemente quieres charlar sobre desarrollo web, no dudes en contactarme. Estoy aquí para ayudarte a hacer realidad tus ideas.</p>
-                <p>Completa el formulario a continuación y me pondré en contacto contigo lo antes posible.</p>
+                <h1>¿Tienes un proyecto en mente? Estoy listo para construirlo contigo</h1>
+                <p>
+                    Me apasiona crear soluciones funcionales y modernas. Si estás buscando un desarrollador
+                    comprometido y en constante crecimiento,
+                    será un gusto saber de ti.
+                </p>
+                <p>
+                    Completa el formulario y te contactaré a la brevedad.
+                </p>
+
             </div>
-                <div id="contacto" class="right padded">
-                    <form class="contact-form" method="post" action="{{ url_for('portfolio.contacto') }}">
-                        <input name="name" type="text" placeholder="Nombre" required>
-                        <input name="email" type="email" placeholder="Email" required type="email">
-                        <textarea name="message" placeholder="Mensaje" required minlength="10"></textarea>
-                        <button type="submit" class="btn full-width">Enviar</button>
-                </div>
+            <div id="contacto" class="right padded">
+                <form class="contact-form" method="post" action="{{ url_for('portfolio.contacto') }}">
+                    <input name="name" type="text" placeholder="Nombre" required>
+                    <input name="email" type="email" placeholder="Email" required type="email">
+                    <textarea name="message" placeholder="Mensaje" required minlength="10"></textarea>
+                    <button type="submit" class="btn full-width">Enviar</button>
+            </div>
         </div>
     </div>
 </div>

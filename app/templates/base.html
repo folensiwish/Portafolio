@@ -2,15 +2,19 @@
 <title>{% block title %}My Application{% endblock %}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
 <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Rufina:wght@400;700&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Rufina:wght@400;700&display=swap"
+    rel="stylesheet">
+
 <body>
     <header>
-        <div class="logo">ALBERTO FERNANDEZ</div>
-        <nav> 
+        <div class="logo">Alberto Fernández | Desarrollador Full Stack Jr.</div>
+        <nav>
             <ul>
                 <li><a href="{{ url_for('portfolio.index') }}">Inicio</a></li>
                 <li><a href="#contacto">Contacto</a></li>
@@ -20,10 +24,8 @@
     <section>{% block content %}{% endblock %}</section>
     <div class="footer">
         <div class="center full-width">
-            
-            <h3>Contactame :D</h3>
-            <p> O tambien puedes seguirme en mis redes sociales</p>   
-        
-        </div>   
+            <h3>¡Hablemos!</h3>
+            <p>Si te gustó lo que viste, no dudes en escribirme o seguirme en redes sociales.</p>
+        </div>
     </div>
 </body>
