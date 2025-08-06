@@ -177,15 +177,24 @@ a.btn:hover{
 
 .full-width {
     width: 100%;
+
 }
 
 .footer{
-    padding: 80px 0 0 0;
     background-color: #efefef;
     color: #19239a;
     box-shadow: 3px 0 5px black;
 }
 
+.social-links a{
+    margin: 0 2px;
+}
+
+.social {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
 .white-bg {
     background-color: #efefef;
 }
@@ -249,6 +258,10 @@ a.card-link h3 {
         width: 100%;
         /* Y los elementos deben apilarse, no estar uno al lado del otro */
         flex-direction: column;
+        
+    }
+    .panel {
+        padding: 40px 25px;
     }
 
     .panel h1 {
@@ -291,6 +304,13 @@ a.card-link h3 {
     a.btn {
         justify-content: center;
         display: flex;
+    }
+
+    .left.padded, .right.padded {
+        padding: 10px 25px;
+    }
+    .full-width p{
+        padding : 0px 30px;
     }
 }
 
